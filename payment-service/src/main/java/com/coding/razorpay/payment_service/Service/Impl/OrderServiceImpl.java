@@ -53,7 +53,7 @@ public class OrderServiceImpl implements OrderService {
     @Retry(name = "merchant-service")
     public OrderResponse create(UUID merchantId, CreateOrderRequest request) {
         if (request.receipt() != null && orderRepository.existsByMerchantIdAndReceipt(merchantId, request.receipt())) {
-            throw new DuplicateResourceException("ORDER_RECEIPT_DUPLICATE", "Order with receipt already exists: " + request.receipt());
+            throw new DuplicateResourceException("ORDER_RECEIPT_DUPLICATE", "Order with receipt already exists : " + request.receipt());
         }
 
         UUID customerId = null;

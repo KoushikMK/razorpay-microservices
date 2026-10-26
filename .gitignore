@@ -1,0 +1,9 @@
+# IntelliJ files
+.idea/
+*.iml
+
+# Maven build output
+**/target/
+
+# Local secrets
+k8s-secrets.env

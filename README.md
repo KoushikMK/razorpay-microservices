@@ -68,20 +68,5 @@ The architecture supports Kubernetes-based deployment and can be adapted for Goo
 - **Testing:** JUnit, Postman, Apache JMeter
 - **Build Tool:** Maven
 
-## Resume and Interview Highlights
-
-Developed a distributed payment platform using Spring Boot microservices, PostgreSQL, Redis, Kafka, and Kubernetes. Implemented idempotency, transactional outbox processing, distributed scheduler locking, rate limiting, and fault-tolerance mechanisms. Integrated Prometheus, Grafana, and Zipkin for monitoring and distributed tracing, and used Apache JMeter for performance testing.
-
-### Key Interview Topics
-
-- Payment lifecycle and microservice communication
-- Kafka producers, consumers, and event processing
-- Transactional Outbox pattern
-- Idempotency and duplicate request prevention
-- Redis-based rate limiting and distributed locking
-- Circuit breakers and retries using Resilience4j
-- Kubernetes service discovery and deployment
-- Monitoring, tracing, and performance testing
-
 ---
 
